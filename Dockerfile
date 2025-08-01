@@ -1,5 +1,5 @@
 # Start from a Maven image to build the app
-FROM maven:3.8.6-openjdk-17-slim AS build
+FROM maven:3.9.6-openjdk-17 AS build
 WORKDIR /app
 COPY . .
 RUN mvn clean package -DskipTests
