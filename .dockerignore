@@ -1,0 +1,11 @@
+.gradle
+.git
+.gitignore
+*.md
+build/
+target/
+*.iml
+*.log
+.env
+.idea
+firebase-service-account.json
